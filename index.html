@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="./Midia/battery.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <title>Consumo e Duração</title>
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora de duração da bateria</h1>
+        </header>
+        <main>
+            <aside>
+                <h2>Componentes</h2>
+
+                <ul>
+
+                </ul>
+            </aside>
+
+            <section>
+                <h2>Adicionar Componente</h2>
+
+                <ul>
+                    <input type="text" id="nome" placeholder="Nome do Componente">
+                    <input type="text" id="tensao" placeholder="Tensão do Componente em Volts">
+                    <input type="text" id="corrente" placeholder="Corrente do Componente em Amperes">
+                    <input type="text" id="quantidade" placeholder="Quantidade do Componente">
+                </ul>
+
+                <div class ="btns">
+                    <button onclick="showOnScreen()">Adicionar Componente</button>
+                    <button>Adicionar Bateria</button>
+                    <button>Bateria Sugerida</button>
+                </div>
+
+            </section>
+        </main>
+        <script src="./JS/script.js"></script>
+    </body>
+
+</html>
